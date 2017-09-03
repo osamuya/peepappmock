@@ -1,85 +1,6 @@
-<!doctype html>
-<!--[if IE 6]> <html class="ie6"> <![endif]-->
-<!--[if IE 7]> <html class="ie7"> <![endif]-->
-<!--[if IE 8]> <html class="ie8"> <![endif]-->
-<!--[if IE 9]> <html class="ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->
-<html lang="ja">
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<!--page info-->
-<title>無題ドキュメント</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<!--og-->
-<meta property="og:type" content="website">
-<meta property="og:url" content="">
-<meta property="og:image" content="">
-<meta property="og:title" content="">
-<meta property="og:description" content="">
-<meta property="og:site_name" content="">
-<!--favicon-->
-<link rel="shortcut icon" href=""/>
-
-<!--css-->
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="assets/css/index.css" media="all">
-
-<!--[if lt IE 10]>
-<script type="text/javascript" src="assets/js/html5shiv.min.js"></script>
-<script type="text/javascript" src="assets/js/respond.min.js"></script>
-<script type="text/javascript" src="assets/js/flexibility.js"></script>
-<![endif]-->
-
-</head>
-
+<?php include("/inc/meta_head.php"); ?>
 <body>
-<nav class="navbar-default navbar navbar-static-top">
-	
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#patern05" aria-expanded="false">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a href="/" class="navbar-brand">Bootstrap3の使い方</a>
-		</div>
-		<div id="patern05" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/regist/">新規投稿</a></li>
-				<li class="">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-						投稿板<b class="caret"></b>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="board00.html">みんなの投稿</a></li>
-						<li><a href="#">みんなの投稿その２</a></li>
-						<li><a href="#">みんなの投稿その３</a></li>
-					</ul>
-				</li>
-				<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">アーカイブ<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">トピック一覧</a></li>
-						<li><a href="#">画像一覧</a></li>
-						<li><a href="#">地域から探す</a></li>
-						<li><a href="#">人気＆アクティブ</a></li>
-					</ul>
-				</li>
-				<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">ご利用方法<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">ご利用方法</a></li>
-						<li><a href="#">注意事項</a></li>
-						<li><a href="#">免責</a></li>
-						<li><a href="#">管理者</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
+<?php include("/inc/gnavi.php"); ?>
 
 <div class="mblock last">
 	<div class="container">
@@ -125,26 +46,4 @@
 	</div>
 </div>
 
-<div class="footer">
-	<nav class="navbar-default navbar">
-
-		<div class="container">
-		<div id="patern05" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-			<ul class="nav navbar-nav">
-				<li><a href="">Link1</a></li>
-				<li><a href="">Link1</a></li>
-				<li><a href="">Link1</a></li>
-			</ul>
-		</div>
-		</div>
-	</nav>
-	<div class="copyright"><p>Copyright (C) 2017 uua. All rights reserved.</p></div>
-</div>
-
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<!--js-->
-<script type="text/javascript" src="assets/js/easing.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-</body>
-</html>
+<?php include("/inc/footer.php"); ?>
