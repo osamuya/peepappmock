@@ -1,76 +1,6 @@
-<!doctype html>
-<!--[if IE 6]> <html class="ie6"> <![endif]-->
-<!--[if IE 7]> <html class="ie7"> <![endif]-->
-<!--[if IE 8]> <html class="ie8"> <![endif]-->
-<!--[if IE 9]> <html class="ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->
-<html lang="ja">
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<!--page info-->
-<title>無題ドキュメント</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<!--og-->
-<meta property="og:type" content="website">
-<meta property="og:url" content="">
-<meta property="og:image" content="">
-<meta property="og:title" content="">
-<meta property="og:description" content="">
-<meta property="og:site_name" content="">
-<!--favicon-->
-<link rel="shortcut icon" href=""/>
-
-<!--css-->
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="assets/css/index.css" media="all">
-
-<!--[if lt IE 10]>
-<script type="text/javascript" src="assets/js/html5shiv.min.js"></script>
-<script type="text/javascript" src="assets/js/respond.min.js"></script>
-<script type="text/javascript" src="assets/js/flexibility.js"></script>
-<![endif]-->
-
-</head>
-
+<?php include("/inc/meta_head.php"); ?>
 <body>
-<nav class="navbar-default navbar navbar-static-top">
-	
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#patern05" aria-expanded="false">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a href="/" class="navbar-brand">Bootstrap3の使い方</a>
-		</div>
-		<div id="patern05" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="">Link1</a></li>
-				<li class="">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-						投稿<b class="caret"></b>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">みんなの投稿その１</a></li>
-						<li><a href="#">みんなの投稿その２</a></li>
-						<li><a href="#">みんなの投稿その３</a></li>
-					</ul>
-				</li>
-				<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">投稿<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">みんなの投稿その１</a></li>
-						<li><a href="#">みんなの投稿その２</a></li>
-						<li><a href="#">みんなの投稿その３</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
+<?php include("/inc/gnavi.php"); ?>
 
 <div class="container">
 	<ol class="breadcrumb">
@@ -88,7 +18,7 @@
 				<div class="mboard">
 					<div class="mboard__block">
 						<div class="mmain">
-							<h3>ミケランジェロ・ブオナローティ<span class="mboard__block--new">NEW</span></h3>
+							<h3 class="h3">ミケランジェロ・ブオナローティ<span class="mboard__block--new">NEW</span></h3>
 							<div class="board-meta">
 								<span class="board-meta__category"><a href="">カテゴリー</a></span> <span class="board-meta--separator">|</span> 
 								<span class="board-meta__date"><a href="">大阪</a></span> <span class="board-meta--separator">|</span> 
@@ -107,15 +37,7 @@
 
 							</div>
 							<div class="edit first">
-								
-								
-								
-								
-								
-								
-								
-								
-								
+
 								
 <div class="panel-group" id="test" role="tablist" aria-multiselectable="false">
   <div class="panel panel-default">
@@ -199,13 +121,19 @@
 								</div>
 								<div class="panel-body">
 									『システィーナ礼拝堂天井画』の『ユディトとホロフェルネス』の部分拡大画像。描かれているホロフェルネスは、ミケランジェロの自画像といわれている。ミケランジェロは、存命中にその伝記が出版された初めての西洋美術家であるという点でも、際立った存在といえる[3]。伝記のうちの一つがジョルジョ・ヴァザーリの『画家・彫刻家・建築家列伝』で、ヴァザーリはミケランジェロをルネサンス期の芸術における頂点として絶賛し、その作品は何世紀にもわたって西洋美術界で通用するだろうとしている。ミケランジェロは存命中から「神から愛された男 (Il Divino )」と呼ばれることすらあり[4]、当時の人々からは偉人として畏敬の念を持って見られていた。ミケランジェロの作品に見られる情熱的で独特の作風は後続の芸術家たちの模範となり、盛期ルネサンスの次の西洋芸術運動であるマニエリスムとなって結実していった。
+									
+									<p class="small-footer">
+										<a href="">編集</a> <span class="board-meta--separator">|</span>
+										<a href="">クロース</a> <span class="board-meta--separator">|</span>
+										<a href="">削除</a>
+									</p>
 								</div>
 							</div>
 						</div>
 						
 						<div class="rep first">
 							<div class="panel panel-default">
-								<div class="panel-heading">名前: 名字 名前</div>
+								<div class="panel-heading rep-panel">名前: 名字 名前</div>
 								<div class="panel-meta">
 									<span class="board-meta__category"><a href="">カテゴリー</a></span> <span class="board-meta--separator">|</span> 
 									<span class="board-meta__date"><a href="">大阪</a></span> <span class="board-meta--separator">|</span> 
@@ -215,19 +143,17 @@
 								<div class="panel-body">
 									『システィーナ礼拝堂天井画』の『ユディトとホロフェルネス』の部分拡大画像。描かれているホロフェルネスは、ミケランジェロの自画像といわれている。ミケランジェロは、存命中にその伝記が出版された初めての西洋美術家であるという点でも、際立った存在といえる[3]。伝記のうちの一つがジョルジョ・ヴァザーリの『画家・彫刻家・建築家列伝』で、ヴァザーリはミケランジェロをルネサンス期の芸術における頂点として絶賛し、その作品は何世紀にもわたって西洋美術界で通用するだろうとしている。ミケランジェロは存命中から「神から愛された男 (Il Divino )」と呼ばれることすらあり[4]、当時の人々からは偉人として畏敬の念を持って見られていた。ミケランジェロの作品に見られる情熱的で独特の作風は後続の芸術家たちの模範となり、盛期ルネサンスの次の西洋芸術運動であるマニエリスムとなって結実していった。
 								</div>
-								<div class="panel-footer">パネルフッター</div>
 							</div>
 						</div>
-						
-						
-								<div class="input-group">
-									<input type="text" class="form-control">
-									<span class="input-group-btn">
-										<button class="btn btn-default" type="submit">
-											<i class='glyphicon glyphicon-search'></i>
-										</button>
-									</span>
-								</div>
+
+							<div class="input-group">
+								<input type="text" class="form-control">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit">
+										<i class='glyphicon glyphicon-search'></i>
+									</button>
+								</span>
+							</div>
 						
 						
 					</div>

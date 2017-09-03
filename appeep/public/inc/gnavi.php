@@ -19,7 +19,7 @@
 						投稿板<b class="caret"></b>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="board00.html">みんなの投稿</a></li>
+						<li><a href="board00.php">みんなの投稿</a></li>
 						<li><a href="#">みんなの投稿その２</a></li>
 						<li><a href="#">みんなの投稿その３</a></li>
 						<li><a href="/template.php">テンプレート</a></li>
@@ -30,7 +30,7 @@
 						<li><a href="#">トピック一覧</a></li>
 						<li><a href="#">画像一覧</a></li>
 						<li><a href="#">地域から探す</a></li>
-						<li><a href="#">人気＆アクティブ</a></li>
+						<li><a href="#">トピック一覧</a></li>
 					</ul>
 				</li>
 				<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">ご利用方法<b class="caret"></b></a>

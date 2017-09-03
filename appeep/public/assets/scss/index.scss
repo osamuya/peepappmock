@@ -85,7 +85,7 @@ html {
 					color: #D57100;
 				}
 				h3 {
-					font-size: 22px;
+//					font-size: 22px;
 					margin-bottom: 20px;
 					padding-bottom: 7px;
 					border-bottom: 1px solid #ddd;
@@ -131,10 +131,17 @@ html {
 		.panel-title {
 			font-size: 12px;
 		}
+		.panel-body {
+			.small-footer {
+				text-align: right;
+				margin-right: 18px;
+			}
+		}
+		.rep-panel {
+//			height: 10px;
+			padding: 3px 15px;
+		}
 	}
-	
-	
-	
 }
 
 
