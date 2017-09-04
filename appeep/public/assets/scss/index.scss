@@ -53,16 +53,27 @@ html {
 		.checkbox-text {
 			margin: 0 5px;
 		}
+		input[type=radio] {
+			transform: scale(1.5);
+		}
 		input[type=checkbox] {
 			transform: scale(1.5);
 		}
 		.form-check {
 			margin-bottom: 15px;
 		}
-		.form-botton {
-			margin-bottom: 15px;
-		}
 		
+		.mfileuploader {
+			margin-bottom: 10px;
+		}
+		.btn-info {
+			color: #fff;
+			background-color: #337ab7;
+			border-color: #2e6da4;
+			.form-botton {
+				margin-bottom: 15px;
+			}
+		}
 		.btn {
 			letter-spacing: 2px;
 		}
@@ -72,8 +83,8 @@ html {
 			margin-top: 30px;
 			
 			p {
-				width: 110px;
-				height: 110px;
+				width: 60px;
+				height: 60px;
 				overflow: hidden;
 				display: inline-block;
 				position: relative;
@@ -89,6 +100,8 @@ html {
 					/* 画像の最大サイズは枠の1.5倍まで */
 					max-width: 150%;
 					max-height: 150%;
+//					width: 100%;
+//					height: auto;
 				}
 			}
 		}

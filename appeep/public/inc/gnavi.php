@@ -23,6 +23,7 @@
 						<li><a href="#">みんなの投稿その２</a></li>
 						<li><a href="#">みんなの投稿その３</a></li>
 						<li><a href="/template.php">テンプレート</a></li>
+						<li><a href="/template_form.php">フォームテンプレート</a></li>
 					</ul>
 				</li>
 				<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">アーカイブ<b class="caret"></b></a>

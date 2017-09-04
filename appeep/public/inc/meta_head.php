@@ -27,6 +27,12 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/assets/css/index.css" media="all">
 
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!--js-->
+<script type="text/javascript" src="assets/js/easing.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+	
 <!--[if lt IE 10]>
 <script type="text/javascript" src="assets/js/html5shiv.min.js"></script>
 <script type="text/javascript" src="assets/js/respond.min.js"></script>
