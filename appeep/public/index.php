@@ -1,6 +1,14 @@
-<?php include("/inc/meta_head.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/inc/meta_head.php"); ?>
 <body>
-<?php include("/inc/gnavi.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/inc/gnavi.php"); ?>
+
+<div class="container">
+	<ol class="breadcrumb">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Library</a></li>
+		<li class="active">Data</li>
+	</ol>
+</div>
 
 <div class="mblock last">
 	<div class="container">
@@ -30,13 +38,8 @@
 					</form>
 				</div>
 				
-				<div class="mphoto">
-					<a href="#"><img src="/assets/img/dummy01.jpg"></a>
-					<a href="#"><img src="/assets/img/dummy02.jpg"></a>
-					<a href="#"><img src="/assets/img/dummy03.jpg"></a>
-					<a href="#"><img src="/assets/img/dummy04.jpg"></a>
-					<a href="#"><img src="/assets/img/dummy05.jpg"></a>
-				</div>
+				
+				<?php include($_SERVER['DOCUMENT_ROOT']."/inc/inc_photo.php"); ?>
 			</div>
 			
 			<div class="col-sm-6 col-xs-12">
@@ -46,4 +49,4 @@
 	</div>
 </div>
 
-<?php include("/inc/footer.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/inc/footer.php"); ?>

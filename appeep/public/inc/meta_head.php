@@ -25,7 +25,7 @@
 
 <!--css-->
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="assets/css/index.css" media="all">
+<link rel="stylesheet" type="text/css" href="/assets/css/index.css" media="all">
 
 <!--[if lt IE 10]>
 <script type="text/javascript" src="assets/js/html5shiv.min.js"></script>

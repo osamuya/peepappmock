@@ -1,14 +1,7 @@
-<?php include("/inc/meta_head.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/inc/meta_head.php"); ?>
 <body>
-<?php include("/inc/gnavi.php"); ?>
-
-<div class="container">
-	<ol class="breadcrumb">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Library</a></li>
-		<li class="active">Data</li>
-	</ol>
-</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/inc/gnavi.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/inc/inc_breadcrumbs.php"); ?>
 
 <div class="mblock last">
 	<div class="container">
@@ -25,13 +18,9 @@
 								<span class="board-meta__date">2017.09.02 (日)</span> <span class="board-meta--separator">|</span>
 								<span class="board-meta__name">FROM: <a href="">名字 名前</a></span>
 							</div>
-							<div class="mphoto">
-								<img src="/assets/img/dummy01.jpg">
-								<img src="/assets/img/dummy02.jpg">
-								<img src="/assets/img/dummy03.jpg">
-								<img src="/assets/img/dummy04.jpg">
-								<img src="/assets/img/dummy05.jpg">
-							</div>
+							
+							<?php include($_SERVER['DOCUMENT_ROOT']."/inc/inc_photo.php"); ?>
+							
 							<div class="board-text first">
 								name = ミケランジェロ・ブオナローティMichelangelo Buona ミケランジェロ・ディ・ロドヴィーコ・ブオナローティ・シモーニ（伊: Michelangelo di Lodovico Buonarroti Simoni[1]、1475年3月6日 - 1564年2月18日）は、イタリア盛期ルネサンス期の彫刻家、画家、建築家、詩人。西洋美術史上のあらゆる分野に、大きな影響を与えた芸術家である[2]。ミケランジェロ自身が本業と考えていた彫刻分野以外の作品は決して多くはないにもかかわらず、様々な分野で優れた芸術作品を残したその多才さから、レオナルド・ダ・ヴィンチと同じく、ルネサンス期の典型的な「万能（の）人」と呼ばれる。<br>ミケランジェロは存命中から非常に優れた芸術家として高い評価を得ており、現在でも西洋美術史上における最高の芸術家の一人と見なされている[2]。ミケランジェロが制作した絵画、彫刻、建築のいずれをとっても、現存するあらゆる芸術家の作品のなかで、最も有名なものの一つとなっている[2]。長寿を保ったミケランジェロの創作活動は前述以外の芸術分野にも及ぶ膨大なもので、書簡、スケッチ、回想録なども多く現存している。また、ミケランジェロは16世紀の芸術家の中で最もその記録が詳細に残っている人物でもある。<br>ミケランジェロの彫刻で最も有名と思われる『ピエタ』（1498年 - 1499年、サン・ピエトロ大聖堂）と『ダヴィデ像』（1504年、アカデミア美術館）は、どちらもミケランジェロが20歳代のときの作品である。また、ミケランジェロ自身は絵画作品を軽視していたが、西洋美術界に非常に大きな影響を与えた2点のフレスコ画、システィーナ礼拝堂の『システィーナ礼拝堂天井画』と祭壇壁画『最後の審判』を描いている。さらに建築家としてもフィレンツェのラウレンツィアーナ図書館（英語版）で、マニエリスム建築の先駆けといえる様式で設計を行っている。また、74歳のときにアントニオ・ダ・サンガッロ・イル・ジョヴァネの死去をうけて、当時改築中だったサン・ピエトロ大聖堂の主任建築家に任命された。このときミケランジェロは従前の設計を変更し、建物西側（奥）はミケランジェロの設計どおりに建てられた。ただし、主ドーム部分はミケランジェロの死後になって、別の設計に変更されて完成している。<br>『システィーナ礼拝堂天井画』の『ユディトとホロフェルネス』の部分拡大画像。描かれているホロフェルネスは、ミケランジェロの自画像といわれている。<br>ミケランジェロは、存命中にその伝記が出版された初めての西洋美術家であるという点でも、際立った存在といえる[3]。伝記のうちの一つがジョルジョ・ヴァザーリの『画家・彫刻家・建築家列伝』で、ヴァザーリはミケランジェロをルネサンス期の芸術における頂点として絶賛し、その作品は何世紀にもわたって西洋美術界で通用するだろうとしている。ミケランジェロは存命中から「神から愛された男 (Il Divino )」と呼ばれることすらあり[4]、当時の人々からは偉人として畏敬の念を持って見られていた。ミケランジェロの作品に見られる情熱的で独特の作風は後続の芸術家たちの模範となり、盛期ルネサンスの次の西洋芸術運動であるマニエリスムとなって結実していった。
 
@@ -229,26 +218,4 @@
 	</div>
 </div>
 
-<div class="footer">
-	<nav class="navbar-default navbar">
-
-		<div class="container">
-		<div id="patern05" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-			<ul class="nav navbar-nav">
-				<li><a href="">Link1</a></li>
-				<li><a href="">Link1</a></li>
-				<li><a href="">Link1</a></li>
-			</ul>
-		</div>
-		</div>
-	</nav>
-	<div class="copyright"><p>Copyright (C) 2017 uua. All rights reserved.</p></div>
-</div>
-
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<!--js-->
-<script type="text/javascript" src="assets/js/easing.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-</body>
-</html>
+<?php include($_SERVER['DOCUMENT_ROOT']."/inc/footer.php"); ?>
