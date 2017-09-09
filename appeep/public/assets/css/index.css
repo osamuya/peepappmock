@@ -372,6 +372,9 @@ html {
       border-left: none;
       border-right: none;
       border-radius: none !important; }
+    html body .mjumbotron {
+      margin-top: -20px;
+      height: 300px; }
     html body .mblock {
       margin-top: 50px;
       margin-bottom: 30px; }
@@ -379,10 +382,16 @@ html {
       margin-top: 30px; }
     html body .last {
       margin-bottom: 50px; }
-    html body .footer .copyright {
+    html body .footer {
+      margin-top: 20px; }
+      html body .footer .copyright {
+        padding-bottom: 20px; }
+        html body .footer .copyright p {
+          text-align: center; }
+    html body .mfooter {
+      border-top: 1px solid #c1c1c1;
+      padding-top: 20px;
       padding-bottom: 20px; }
-      html body .footer .copyright p {
-        text-align: center; }
     html body label {
       font-weight: normal;
       margin-bottom: 1.5%; }

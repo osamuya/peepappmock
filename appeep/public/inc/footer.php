@@ -1,16 +1,41 @@
-<div class="footer">
-	<nav class="navbar-default navbar">
+<div class="mfooter">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-sm-3 col-xs-6">
+				<ul>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<ul>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<ul>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<ul>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+					<li><a href="">foobarfoobarfoobarfoobar</a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</div>
 
-		<div class="container">
-		<div id="patern05" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-			<ul class="nav navbar-nav">
-				<li><a href="">Link1</a></li>
-				<li><a href="">Link1</a></li>
-				<li><a href="">Link1</a></li>
-			</ul>
-		</div>
-		</div>
-	</nav>
+<div class="footer">
 	<div class="copyright"><p>Copyright (C) 2017 uua. All rights reserved.</p></div>
 </div>
 

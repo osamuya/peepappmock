@@ -21,6 +21,10 @@ html {
 			border-right: none;
 			border-radius: none !important;
 		}
+		.mjumbotron {
+			margin-top: -20px;
+			height: 300px;
+		}
 		
 		.mblock {
 			margin-top: 50px;
@@ -33,12 +37,18 @@ html {
 			margin-bottom: 50px;
 		}
 		.footer {
+			margin-top: 20px;
 			.copyright {
 				padding-bottom: 20px;
 				p {
 					text-align: center;
 				}
 			}
+		}
+		.mfooter {
+			border-top: 1px solid #c1c1c1;
+			padding-top: 20px;
+			padding-bottom: 20px;
 		}
 		
 		/* Form parts*/

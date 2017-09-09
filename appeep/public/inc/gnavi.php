@@ -22,8 +22,10 @@
 						<li><a href="/board00.php">みんなの投稿</a></li>
 						<li><a href="#">みんなの投稿その２</a></li>
 						<li><a href="#">みんなの投稿その３</a></li>
+						<li><a href="/top.php">TOPページデモ</a></li>
 						<li><a href="/template.php">テンプレート</a></li>
-						<li><a href="/template_form.php">フォームテンプレート</a></li>
+						<li><a href="/template_form.php">フォームテンプレート</a>
+						<li><a href="/calendar/calendar.php">カレンダー</a></li>
 					</ul>
 				</li>
 				<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">アーカイブ<b class="caret"></b></a>
@@ -44,6 +46,11 @@
 				</li>
 			</ul>
 		</div>
+		
 	</div>
 	
 </nav>
+
+
+
+
