@@ -26,6 +26,7 @@
 						<li><a href="/template.php">テンプレート</a></li>
 						<li><a href="/template_form.php">フォームテンプレート</a>
 						<li><a href="/calendar/calendar.php">カレンダー</a></li>
+						<li><a href="/error.php">エラー</a></li>
 					</ul>
 				</li>
 				<li class=""><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">アーカイブ<b class="caret"></b></a>

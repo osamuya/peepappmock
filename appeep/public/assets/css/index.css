@@ -375,6 +375,10 @@ html {
     html body .mjumbotron {
       margin-top: -20px;
       height: 300px; }
+    html body .mcenterblock {
+      max-width: 560px;
+      padding-left: 5%;
+      padding-right: 5%; }
     html body .mblock {
       margin-top: 50px;
       margin-bottom: 30px; }
